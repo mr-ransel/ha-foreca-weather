@@ -1,0 +1,10 @@
+{
+  "domain": "foreca",
+  "name": "Foreca",
+  "codeowners": ["@mr-ransel"],
+  "config_flow": true,
+  "documentation": "https://github.com/mr-ransel/ha-foreca-weather",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Foreca",
+        "description": "Enter your Foreca RapidAPI key and search for a location by name.",
+        "data": {
+          "api_key": "RapidAPI key",
+          "query": "Location search"
+        }
+      },
+      "location": {
+        "title": "Select location",
+        "description": "Choose the matching location.",
+        "data": {
+          "location_id": "Location"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key.",
+      "cannot_connect": "Failed to connect to Foreca.",
+      "rate_limited": "Rate limit exceeded. Try again later.",
+      "no_results": "No locations matched that search."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  }
+}
