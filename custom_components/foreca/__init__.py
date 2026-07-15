@@ -8,7 +8,7 @@ from homeassistant.core import HomeAssistant
 
 from .coordinator import ForecaDataUpdateCoordinator
 
-PLATFORMS: list[Platform] = [Platform.WEATHER]
+PLATFORMS: list[Platform] = [Platform.SENSOR, Platform.WEATHER]
 
 type ForecaConfigEntry = ConfigEntry[ForecaDataUpdateCoordinator]
 
