@@ -32,6 +32,12 @@
       "temperature": {
         "name": "Temperature"
       },
+      "apparent_temperature": {
+        "name": "Feels like"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
       "uv_index": {
         "name": "UV index"
       }
